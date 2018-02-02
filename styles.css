@@ -1,7 +1,5 @@
 body
 {
-  color: #ffffff;
-  background-color: #220044;
   background-image: url("images/background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -15,18 +13,43 @@ body
   width: 70%;
 }
 
+video
+{
+   display: block;
+   margin: 0 auto;
+   width: 100%;
+   height: auto;
+   max-width: 900px;
+}
+
 h1
 {
    margin: auto;
    width: 64.99999%;
-   text-align: center;
+   color: #ffffff;
+  padding: 30px;
+}
+
+ul.b
+{
+   list-style-type: square;
+   color: #ffffff;
+   width: 64.99999%;
+   margin: auto;
+   padding-bottom: 30px;
+}
+
+li
+{
+   margin-top: 10px;
 }
 
 .gameDescription
 {
    margin: auto;
    width: 64.99999%;
-   padding: 30px;
+ 
+   color: #ffffff;
 }
 
 .comingToSteam
@@ -37,6 +60,7 @@ h1
    text-align: center;
    font-size: 60px;
    font-weight: bold;
+   color: #ffffff;
 }
 
 .companyLogo
@@ -46,11 +70,14 @@ h1
    padding-top: 100px;
 }
 
-video
+.gradientTop
 {
-   display: block;
-   margin: 0 auto;
    width: 100%;
-   height: auto;
-   max-width: 900px;
+   background: linear-gradient(rgba(255, 153, 0, 1), rgba(255, 153, 0, 0));
+}
+
+.gradientBottem
+{
+   width: 100%;
+   background: linear-gradient(rgba(34, 0, 68, 0), rgba(34, 0, 68, 1));
 }
