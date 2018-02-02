@@ -1,16 +1,56 @@
-body {
+body
+{
   color: #ffffff;
-  background-color: #220044
+  background-color: #220044;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.center-div
+.gameLogo
 {
-   margin: 0 auto;
-   width: 1280px;
+  display: block;
+  margin: auto;
+  height: auto;
+  width: 70%;
 }
 
-.lol
+h1
 {
+   margin: auto;
+   width: 64.99999%;
+   text-align: center;
+}
+
+.gameDescription
+{
+   margin: auto;
+   width: 64.99999%;
+   padding: 30px;
+}
+
+.comingToSteam
+{
+   margin: auto;
+   width: 64.99999%;
+   padding-bottom: 30px;
+   text-align: center;
+   font-size: 60px;
+   font-weight: bold;
+}
+
+.companyLogo
+{
+   margin: auto;
+   width: 96px;
+   padding-top: 100px;
+}
+
+video
+{
+   display: block;
    margin: 0 auto;
-   width: 800px;
+   width: 100%;
+   height: auto;
+   max-width: 900px;
 }
