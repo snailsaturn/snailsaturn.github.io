@@ -35,7 +35,7 @@ video
    margin-top: 20px;
    margin-bottom: 20px;
    width: 70%;
-    margin: auto;
+   margin: auto;
 }
 
 
@@ -53,11 +53,11 @@ video
 }
 
 .gamelink:hover {
-    color: #7f00ff;
+    color: #ffc266;
 }
 
 .gamelink:active {
-    color: #4d0099;
+    color: #ff9900;
 }
 
 
