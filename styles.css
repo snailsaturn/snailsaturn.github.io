@@ -1,8 +1,12 @@
 body
 {
-  background-image: url("images/background.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+   background-color: #220044;
+}
+
+.gradientTop
+{
+   width: 100%;
+   background: linear-gradient(rgba(255, 153, 0, 1), rgba(255, 153, 0, 0));
 }
 
 .gameLogo
@@ -10,7 +14,7 @@ body
   display: block;
   margin: auto;
   height: auto;
-  width: 50%;
+  width: 30%;
 }
 
 iframe {
@@ -35,6 +39,17 @@ iframe {
    margin-top: 20px;
    margin-bottom: 20px;
    width: 500px;
+   margin: auto;
+}
+
+.wantToBeNotified
+{
+   padding: 16px;
+   text-align: center;
+   font-size: 30px;
+   font-weight: bold;
+   color: #ffffff;
+   font-family: Arial, Helvetica, sans-serif;
    margin: auto;
 }
 
@@ -65,37 +80,56 @@ h1
 {
    margin: auto;
    color: #ffffff;
-   padding: 20px;
-   font-size: 30px;
+   padding: 40px;
+   font-size: 32px;
    text-align: center;
    font-family: Arial, Helvetica, sans-serif;
 }
 
-ul.b
+
+
+.resizingImage
 {
-   list-style-type: square;
-   color: #ffffff;
-   width: 65.99999%;
+   display: block;
    margin: auto;
-   padding-bottom: 30px;
+   width: 100%;
+}
+
+.imageContainer {
+   position: relative;
+}
+
+.textOverlayRight {
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   color: white;
    font-family: Arial, Helvetica, sans-serif;
+   background: linear-gradient(to right, rgba(34, 0, 68, 0), 20%, rgba(34, 0, 68, 1));
+   font-size: 42px;
+   padding: 20px;
+   width: 30%;
+   height: 100%;
 }
 
-li
-{
-   margin-top: 10px;
+.textOverlayLeft {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   background: linear-gradient(to left, rgba(34, 0, 68, 0), 20%, rgba(34, 0, 68, 1));
+   font-size: 42px;
+   padding: 20px;
+   width: 30%;
+   height: 100%;
 }
 
-.gradientTop
-{
-   width: 100%;
-   background: linear-gradient(rgba(255, 153, 0, 1), rgba(255, 153, 0, 0));
-}
-
-.gradientBottem
-{
-   width: 100%;
-   background: linear-gradient(rgba(34, 0, 68, 0), rgba(34, 0, 68, 1));
+.underText {
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   padding-bottom: 16px;
 }
 
 .companyLogo

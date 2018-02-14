@@ -29,34 +29,14 @@ body
 
 
 
-div.gallery {
-    border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
 * {
     box-sizing: border-box;
 }
 
 
-
-.responsive {
-    padding: 6px 6px;
-    float: left;
-    width: 33.33333%;
-}
-
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1600px){
     .gameLogo{
-      width: 70%;
+      width: 40%;
     }
 
     .steamButton{
@@ -64,19 +44,96 @@ div.gallery img {
     font-size: 26px;
     padding: 12px;
     }
-
-    h1{
-    font-size: 24px;
+    
+    .wantToBeNotified
+    {
+       font-size: 24px;
     }
 
-    ul.b{
-    font-size: 18px;
-    width: 80%;
+    h1{
+    font-size: 28px;
     }
 
     iframe{
         width: 680px;
         height: 383px;
+    }
+
+    .textOverlayRight{
+    font-size: 32px;
+    }
+
+    .textOverlayLeft{
+    font-size: 32px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1200px){
+    .gameLogo{
+      width: 50%;
+    }
+
+    .steamButton{
+    width: 400px;
+    font-size: 26px;
+    padding: 12px;
+    }
+   
+    .wantToBeNotified
+    {
+       font-size: 22px;
+    }
+
+    h1{
+    font-size: 24px;
+       padding: 30px;
+    }
+
+    .textOverlayRight{
+    font-size: 24px;
+    }
+
+    .textOverlayLeft{
+    font-size: 24px;
+    }
+}
+
+
+@media only screen and (max-width: 900px){
+    .gameLogo{
+      width: 70%;
+      padding-bottom: 10px;
+    }
+
+    .steamButton {
+    width: 360px;
+    font-size: 24px;
+    padding: 8px;
+    }
+    
+    .wantToBeNotified
+    {
+       font-size: 20px;
+    }
+
+    h1{
+    font-size: 20px;
+    padding: 20px;
+    }
+
+    iframe{
+        width: 630px;
+        height: 354px;
+    }
+
+    .textOverlayRight{
+    font-size: 20px;
+    }
+
+    .textOverlayLeft{
+    font-size: 20px;
     }
 }
 
@@ -87,30 +144,32 @@ div.gallery img {
       padding-bottom: 10px;
     }
 
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-
     .steamButton {
     width: 360px;
     font-size: 24px;
     padding: 8px;
+    }
+    
+    .wantToBeNotified
+    {
+       font-size: 20px;
     }
 
     h1{
     font-size: 20px;
     }
 
-    ul.b{
-    font-size: 16px;
-    width: 80%;
-    padding-bottom: 20px;
-    }
-
     iframe{
         width: 630px;
         height: 354px;
+    }
+
+    .textOverlayRight{
+    font-size: 18px;
+    }
+
+    .textOverlayLeft{
+    font-size: 18px;
     }
 }
     
@@ -126,7 +185,37 @@ div.gallery img {
         width: 480px;
         height: 270px;
     }
+
+    .textOverlayRight{
+    font-size: 16px;
+    }
+
+    .textOverlayLeft{
+    font-size: 16px;
+    }
 }
+
+
+
+
+@media only screen and (max-width: 550px){   
+    .textOverlayRight{
+    display: none;
+    }
+
+    .textOverlayLeft{
+    display: none;
+    }
+}
+
+@media only screen and (min-width: 550px){
+    .underText{
+    display: none;
+    }
+}
+
+
+
 
 @media only screen and (max-width: 500px){
     .gameLogo{
@@ -134,24 +223,19 @@ div.gallery img {
       padding-bottom: 10px;
     }
 
-    .responsive {
-        width: 100%;
-    }
-
     .steamButton {
     width: 280px;
     font-size: 18px;
     padding: 10px;
     }
+    
+    .wantToBeNotified
+    {
+       font-size: 16px;
+    }
 
     h1{
     font-size: 18px;
-    }
-
-    ul.b{
-    font-size: 16px;
-    width: 100%;
-    padding-bottom: 20px;
     }
 
     iframe{
@@ -159,6 +243,8 @@ div.gallery img {
         height: 248px;
     }
 }
+   
+
 
 @media only screen and (max-width: 460px){
     iframe{
@@ -186,15 +272,14 @@ div.gallery img {
     padding: 8px;
     }
 
+    .wantToBeNotified
+    {
+       font-size: 14px;
+    }
+
     h1{
     font-size: 16px;
     padding: 10px;
-    }
-
-    ul.b{
-    font-size: 14px;
-    width: 100%;
-    padding-bottom: 20px;
     }
 
     iframe{
@@ -203,7 +288,7 @@ div.gallery img {
     }
 }
 
-    @media only screen and (max-width: 350px){
+@media only screen and (max-width: 350px){
     iframe{
         width: 280px;
         height: 158px;
@@ -232,89 +317,78 @@ div.gallery img {
 </head>
 
 <body>
+
     <div class="gradientTop">
+
         <img src="images/MindOverMushroomLogo_1920x1080.png" class="gameLogo" alt="Mind Over Mushroom">
 
-        <iframe width="800" height="450" src="https://www.youtube.com/embed/dLoCpJFcid0" allowfullscreen>
-        </iframe>
+
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/dLoCpJFcid0" allowfullscreen></iframe>
+
 
         <div class="steamButton">
             <a class="gamelink" href="http://store.steampowered.com/app/791800/Mind_Over_Mushroom/">Add it to your Steam Wishlist!</a>
         </div>
+
     </div>
 
 
 
-    <div class="gradientBottem">
-
-        <h1>
-             Mind Over Mushroom is a turn-based tactics game currently in development
-        </h1>
-
-        <ul class="b">
-            <li>Free-form, non-grid based movement system.</li>
-            <li>Fight your way though 25+ tactical battles set in a variety of diverse locations.</li>
-            <li>Over a dozen unique character types to unlock, each with their own abilities.</li>
-        </ul>
+    <h1>Mind Over Mushroom is a turn-based tactics game currently in development, planned to release sometime this year</h1>
 
 
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="images/ruins.png">
-                    <img src="images/ruins.png" alt="Mind Over Mushroom screenshot of a battle in fungus covered ruins" width="300" height="200">
-                </a>
-            </div>
-        </div>
+    <div class="imageContainer">
+        <img src="images/freeformMovement.png" class="resizingImage" alt="Free-form, non grid-based movement">
+        <div class="textOverlayLeft">Free-form, non-grid based movement system</div>
+    </div>
+    <div class="underText">Free-form, non-grid based movement system</div>
 
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="images/jungle.png">
-                    <img src="images/jungle.png" alt="Start of a battle in the jungle.  A player character is about to move" width="600" height="400">
-                </a>
-            </div>
-        </div>
+    <div class="imageContainer">
+        <img src="images/mageCastingFireball.png" class="resizingImage" alt="Mage casting a fireball">
+        <div class="textOverlayRight">Challenging turn-based, tactical combat</div>
+    </div>
+    <div class="underText">Challenging turn-based, tactical combat</div>
 
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="images/cave.png">
-                    <img src="images/cave.png" alt="A battle in a cave filled with glowing mushrooms.  Several characters have been afflicted with poison" width="600" height="400">
-                </a>
-            </div>
-        </div>
+    <div class="imageContainer">
+        <img src="images/characterLineUpDouble.png" class="resizingImage" alt="Pumpkin Patch">
+        <div class="textOverlayLeft">Over a dozen unique character types to unlock, each with their own abilities</div>
+    </div>
+    <div class="underText">Over a dozen unique character types to unlock, each with their own abilities</div>
 
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="images/grasslands.png">
-                    <img src="images/grasslands.png" alt="A mage is casting a fireball at an enemy character" width="600" height="400">
-                </a>
-            </div>
-        </div>
+    <div class="imageContainer">
+        <img src="images/glowingMushroomsInCave.png" class="resizingImage" alt="Glowing Mushrooms in a cave">
+        <div class="textOverlayRight">Interesting and diverse maps</div>
+    </div>
+    <div class="underText">Interesting and diverse maps</div>
 
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="images/pumpkinPatch.png">
-                    <img src="images/pumpkinPatch.png" alt="A character is about to attack an enemy in one of the pumpkin patch levels" width="600" height="400">
-                </a>
-            </div>
-        </div>
+    <div class="imageContainer">
+        <img src="images/pumpkinPatch.png" class="resizingImage" alt="Pumpkin Patch">
+        <div class="textOverlayLeft">Stylized low poly visuals</div>
+    </div>
+    <div class="underText">Stylized low poly visuals</div>
 
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="images/overworld.png">
-                    <img src="images/overworld.png" alt="The Overworld/level select screen" width="600" height="400">
-                </a>
-            </div>
-        </div>
-
-        <div class="clearfix"></div>
+    <div class="imageContainer">
+        <img src="images/overworld.png" class="resizingImage" alt="OverWorld">
+        <div class="textOverlayRight">Embark on a treacherous journey to distant lands</div>
+    </div>
+    <div class="underText">Embark on a treacherous journey to distant lands</div>
 
 
-        <img src="images/BinaryJellyfishLogo_Full_192x64.png" class="companyLogo" alt="Logo of inde game studio Binary Jellyfish">
+    <div class="wantToBeNotified">Want to be notified when the game is release?</div> 
 
-        <div class="copyrightText">      
-            &#169; 2018 Binary Jellyfish LLC         
-        </div>
 
+    <div class="steamButton">
+        <a class="gamelink" href="http://store.steampowered.com/app/791800/Mind_Over_Mushroom/">Add it to your Steam Wishlist!</a>
+    </div>
+
+
+    <div class="clearfix"></div>
+
+
+    <img src="images/BinaryJellyfishLogo_Full_192x64.png" class="companyLogo" alt="Logo of inde game studio Binary Jellyfish">
+
+    <div class="copyrightText">
+        &#169; 2018 Binary Jellyfish LLC         
     </div>
 
 </body>
