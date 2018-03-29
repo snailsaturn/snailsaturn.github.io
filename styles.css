@@ -1,6 +1,9 @@
 body
 {
    background-color: #153850;
+   background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("images/background.png");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
 }
 
 .gradientTop
@@ -22,7 +25,24 @@ iframe {
     width: 800px;
     display: block;
     margin: 0 auto;
+}
 
+.topStuff
+{
+   background-color: #153850;
+   padding-top: 20px;
+   padding-bottom: 30px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+
+.topSubscribeStuff
+{
+   background-color: #153850;
+   margin: 30px auto;
+   width: 90%;
+   max-width: 1000px;
 }
 
 .steamButton
@@ -37,13 +57,12 @@ iframe {
    border-radius: 8px;
    margin: auto;
    margin-top: 4px;
-   margin-bottom: 30px;
    width: 400px;
 }
 
 .wantToBeNotified
 {
-   padding: 16px;
+   padding-top: 16px;
    text-align: center;
    font-size: 30px;
    font-weight: bold;
@@ -80,8 +99,7 @@ iframe {
 h1
 {
    margin: auto;
-   margin-top: 0px;
-   margin-bottom: 30px;
+   margin-bottom: 20px;
    color: #ffffff;
    padding-right: 20px;
    padding-left: 20px;
@@ -91,56 +109,45 @@ h1
 }
 
 
-
-.resizingImage
+.aboutText
 {
-   display: block;
-   margin: auto;
-   width: 100%;
-}
-
-.imageContainer {
-   position: relative;
-}
-
-.textOverlayRight {
-   position: absolute;
-   top: 0px;
-   right: 0px;
    color: white;
    font-family: Arial, Helvetica, sans-serif;
-   background: linear-gradient(to right, rgba(21, 56, 80, 0), 20%, rgba(21, 56, 80, 1));
-   font-size: 42px;
    padding: 20px;
-   width: 30%;
-   height: 100%;
 }
 
-.textOverlayLeft {
-   position: absolute;
-   top: 0px;
-   left: 0px;
-   color: white;
-   font-family: Arial, Helvetica, sans-serif;
-   background: linear-gradient(to left, rgba(21, 56, 80, 0), 20%, rgba(21, 56, 80, 1));
-   font-size: 42px;
+
+.middleStuff
+{
+   background-color: #153850;
    padding: 20px;
-   width: 30%;
-   height: 100%;
+   width: 90%;
+   max-width: 1000px;
+   margin: 30px auto;
 }
 
-.underText {
-   color: white;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 16px;
-   padding-bottom: 16px;
+
+.bottomStuff
+{
+   background-color: #153850;
+   width: 90%;
+   max-width: 1000px;
+   margin: 30px auto;
+}
+
+
+
+.companyStuff
+{
+   background-color: #153850;
+   margin-top: 30px;
 }
 
 .companyLogo
 {
    display: block;
    margin: auto;
-   padding-top: 70px;
+   padding-top: 40px;
 }
 
 .copyrightText
