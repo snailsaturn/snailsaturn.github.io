@@ -1,18 +1,13 @@
 .newsletterNotice
 {
-   padding-bottom: 6px;
-   text-align: center;
-   font-size: 22px;
-   color: #ffffff;
-   font-family: Arial, Helvetica, sans-serif;
-   margin: auto;
+font-size: 18px;
+   padding-bottom: 4px;
 }
-
 
 
 #mailchimp {
    color: #ffffff;
-   padding: 20px 15px;
+   padding: 0px 15px;
    font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -29,7 +24,7 @@
 #mailchimp input.email { background: #fff; width: 380px; }
 
 #mailchimp input[type="submit"] {
-   background: #C99E66;
+   background: #ffc266;
    color: #153850;
    font-weight: bold;
    cursor: pointer;
@@ -38,4 +33,4 @@
    width: 120px;
 }
 
-#mailchimp input[type="submit"]:hover { color: #ffc266; }
+#mailchimp input[type="submit"]:hover { color: #ffffff; }

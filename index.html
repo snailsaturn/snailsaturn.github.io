@@ -14,7 +14,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mind Over Mushroom - turn-based tactical strategy indie game</title>
+    <title>Mind Over Mushroom - turn-based tactical strategy game</title>
     <meta name="description" content="Mind Over Mushroom, an indie turn-based tactical strategy game featuring a free-form movement system, challenging battles and numerous unlockable characters.  Currently in development.">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="newsletterFormStyles.css">
@@ -42,20 +42,13 @@ body
       width: 30%;
     }
 
-    .steamButton{
-    width: 400px;
+    .steamNotice{
     font-size: 26px;
-    padding: 6px;
-    }
-    
-    .wantToBeNotified
-    {
-       font-size: 24px;
     }
 
     .newsletterNotice
     {
-       font-size: 22px;
+       font-size: 18px;
     }
 
     h1{
@@ -63,7 +56,12 @@ body
     }
 
     h2{
-    font-size: 22px;
+    font-size: 18px;
+    }
+
+    ul.b
+    {
+       max-width: 80%;
     }
 
     iframe{
@@ -79,20 +77,13 @@ body
       width: 40%;
     }
 
-    .steamButton{
-    width: 400px;
+    .steamNotice{
     font-size: 26px;
-    padding: 6px;
-    }
-   
-    .wantToBeNotified
-    {
-       font-size: 22px;
     }
 
     .newsletterNotice
     {
-       font-size: 20px;
+       font-size: 18px;
     }
 
     h1{
@@ -100,7 +91,7 @@ body
     }
 
     h2{
-    font-size: 20px;
+    font-size: 18px;
     }
 }
 
@@ -110,20 +101,13 @@ body
       width: 50%;
     }
 
-    .steamButton {
-    width: 360px;
+    .steamNotice {
     font-size: 24px;
-    padding: 6px;
-    }
-    
-    .wantToBeNotified
-    {
-       font-size: 20px;
     }
 
     .newsletterNotice
     {
-       font-size: 20px;
+       font-size: 18px;
     }
 
     h1{
@@ -146,15 +130,8 @@ body
       width: 60%;
     }
 
-    .steamButton {
-    width: 360px;
+    .steamNotice {
     font-size: 24px;
-    padding: 6px;
-    }
-    
-    .wantToBeNotified
-    {
-       font-size: 20px;
     }
 
     .newsletterNotice
@@ -203,15 +180,8 @@ body
       width: 70%;
     }
 
-    .steamButton {
-    width: 280px;
+    .steamNotice {
     font-size: 18px;
-    padding: 10px;
-    }
-    
-    .wantToBeNotified
-    {
-       font-size: 16px;
     }
 
     .newsletterNotice
@@ -265,15 +235,8 @@ body
     width: 80%;
     }
 
-    .steamButton {
-    width: 220px;
+    .steamNotice {
     font-size: 15px;
-    padding: 8px;
-    }
-
-    .wantToBeNotified
-    {
-       font-size: 14px;
     }
 
     .newsletterNotice
@@ -344,49 +307,61 @@ body
     <iframe width="800" height="450" src="https://www.youtube.com/embed/dLoCpJFcid0" allowfullscreen></iframe>
 
 
-    <div class="topStuff" id="topStuff">
 
-        <h1>Mind Over Mushroom is a turn-based tactics game with non grid-based movement</h1>
+    <div style="background-color: #102b3c">
 
 
-        <a class="lightbox" href="#ruinsBattlePic">
-            <img alt="A battle in fungues-covered, ancient ruins" src="images/thumbs/battle3.png" />
-        </a>
-        <div class="lightbox-target" id="ruinsBattlePic">
-            <img alt="A battle in fungues-covered, ancient ruins" src="images/screenshots/battle3.png" />
-            <a class="lightbox-close" href="#topStuff"></a>
+
+        <div class="topStuff" id="topStuff">
+
+            <h1>Mind Over Mushroom is a turn-based tactics game where movement isn't locked to a grid</h1>
+
+            <a class="lightbox" href="#ruinsBattlePic">
+                <img alt="A battle in fungues-covered, ancient ruins" src="images/thumbs/battle3.png" />
+            </a>
+            <div class="lightbox-target" id="ruinsBattlePic">
+                <img alt="A battle in fungues-covered, ancient ruins" src="images/screenshots/battle3.png" />
+                <a class="lightbox-close" href="#topStuff"></a>
+            </div>
+
+            <a class="lightbox" href="#mushroomsPic">
+                <img alt="Glowing mushrooms in a cave" src="images/thumbs/glowingMushroomsInCave.png" />
+            </a>
+            <div class="lightbox-target" id="mushroomsPic">
+                <img alt="Glowing mushrooms in a cave" src="images/screenshots/glowingMushroomsInCave.png" />
+                <a class="lightbox-close" href="#topStuff"></a>
+            </div>
+
+            <a class="lightbox" href="#battlePic">
+                <img alt="Battle in the Pumpkin Patch" src="images/thumbs/battle.png" />
+            </a>
+            <div class="lightbox-target" id="battlePic">
+                <img alt="Battle in the Pumpkin Patch" src="images/screenshots/battle.png" />
+                <a class="lightbox-close" href="#topStuff"></a>
+            </div>
+
+            <a class="lightbox" href="#battle2Pic">
+                <img alt="Mage casting a fireball at an enemy character" src="images/thumbs/battle2.png" />
+            </a>
+            <div class="lightbox-target" id="battle2Pic">
+                <img alt="Mage casting a fireball at an enemy character" src="images/screenshots/battle2.png" />
+                <a class="lightbox-close" href="#topStuff"></a>
+            </div>
+
         </div>
 
-        <a class="lightbox" href="#mushroomsPic">
-            <img alt="Glowing mushrooms in a cave" src="images/thumbs/glowingMushroomsInCave.png" />
-        </a>
-        <div class="lightbox-target" id="mushroomsPic">
-            <img alt="Glowing mushrooms in a cave" src="images/screenshots/glowingMushroomsInCave.png" />
-            <a class="lightbox-close" href="#topStuff"></a>
+
+
+        <div class="steamNotice">
+            Comming Q3 2018.  Add it to your <a class="gamelink" href="http://store.steampowered.com/app/791800/Mind_Over_Mushroom/">Steam Wishlist</a>
         </div>
-
-        <a class="lightbox" href="#battlePic">
-            <img alt="Battle in the Pumpkin Patch" src="images/thumbs/battle.png" />
+        <a href="http://store.steampowered.com/app/791800/Mind_Over_Mushroom/">
+            <img style="width: 200px; padding-top: 8px" src="images/Steam_Logo.png">
         </a>
-        <div class="lightbox-target" id="battlePic">
-            <img alt="Battle in the Pumpkin Patch" src="images/screenshots/battle.png" />
-            <a class="lightbox-close" href="#topStuff"></a>
-        </div>
-
-        <a class="lightbox" href="#battle2Pic">
-            <img alt="Mage casting a fireball at an enemy character" src="images/thumbs/battle2.png" />
-        </a>
-        <div class="lightbox-target" id="battle2Pic">
-            <img alt="Mage casting a fireball at an enemy character" src="images/screenshots/battle2.png" />
-            <a class="lightbox-close" href="#topStuff"></a>
-        </div>
-
-
-    </div>
 
 
 
-    <div class="topSubscribeStuff">    
+        <div class="topSubscribeStuff">
 
         <!-- Begin MailChimp Signup Form -->
         <center>
@@ -415,47 +390,66 @@ body
         </center>
         <!--End mc_embed_signup-->
 
-    </div>
-
+        </div>
 
 
 
         <div class="containingThing" id="gallery1">
-
-            <h2>Free-form, non-grid based movement system. Make your moves based on distance instead of the squares of a grid.</h2>
 
             <a class="lightbox" href="#nonGridBasedPic">
                 <img alt="Non grid-based movement in the jungle" src="images/thumbs/nonGridBasedMovement.png" />
             </a>
             <div class="lightbox-target" id="nonGridBasedPic">
                 <img alt="Non grid-based movement in the jungle" src="images/screenshots/nonGridBasedMovement.png" />
-                <a class="lightbox-close" href="#gallery1"></a>
+                <a class="lightbox-close" href="#topSubscribeStuff"></a>
             </div>
-         
+
+            <a class="lightbox" href="#pumpkinPatchPic">
+                <img alt="Pumpkin Patch" src="images/thumbs/pumpkinPatch.png" />
+            </a>
+            <div class="lightbox-target" id="pumpkinPatchPic">
+                <img alt="Pumpkin Patch" src="images/screenshots/pumpkinPatch.png" />
+                <a class="lightbox-close" href="#topSubscribeStuff"></a>
+            </div>
+
             <a class="lightbox" href="#nonGridBased2Pic">
                 <img alt="Non grid-based movement along narrow sea cliffs" src="images/thumbs/nonGridBasedMovement3.png" />
             </a>
             <div class="lightbox-target" id="nonGridBased2Pic">
                 <img alt="Non grid-based movement along narrow sea cliffs" src="images/screenshots/nonGridBasedMovement3.png" />
-                <a class="lightbox-close" href="#gallery1"></a>
+                <a class="lightbox-close" href="#topSubscribeStuff"></a>
             </div>
 
-            <a class="lightbox" href="#nonGridBased3Pic">
-                <img alt="Non grid-based movement in the pumpkin patch" src="images/thumbs/nonGridBasedMovement2.png" />
+            <a class="lightbox" href="#ruinsPic">
+                <img alt="Ruins consumed by fungus" src="images/thumbs/ruins.png" />
             </a>
-            <div class="lightbox-target" id="nonGridBased3Pic">
-                <img alt="Non grid-based movement in the pumpkin patch" src="images/screenshots/nonGridBasedMovement2.png" />
-                <a class="lightbox-close" href="#gallery1"></a>
+            <div class="lightbox-target" id="ruinsPic">
+                <img alt="Ruins consumed by fungus" src="images/screenshots/ruins.png" />
+                <a class="lightbox-close" href="#topSubscribeStuff"></a>
             </div>
 
         </div>
 
 
 
+        <ul class="b">
+            <li>
+                <h2>Free-form, non-grid based movement system. Make your moves based on distance instead of the squares of a grid.</h2>
+            </li>
+            <li>
+                <h2>Challenging turn-based tactical combat. Approach each battle with your own strategy and utilize a variety of status effects in clever ways.</h2>
+            </li>
+            <li>
+                <h2>Numerous distinct character types to unlock, each with their own unique abilities - from carnivorous plants and walking bombs, to necromancers and giant snails. Begin each battle by choosing your forces to best suit the tactical situation at hand and your own strategic approach.</h2>
+            </li>
+            <li>
+                <h2>Fight your way though 25+ tactical battles set in a variety of diverse locations, from dark caves and expansive deserts to dense jungles and foreboding wastelands.</h2>
+            </li>
+        </ul>
+
+
+
         <div class="containingThing" id="gallery2">
-
-            <h2>Challenging turn-based tactical combat. Approach each battle with your own strategy and utilize a variety of status effects in clever ways.</h2>
-
 
             <a class="lightbox" href="#islandBossBattlePic">
                 <img alt="Several characters getting attacked by a powerful boss ability on a tropical island map" src="images/thumbs/islandBossBattle.png" />
@@ -481,23 +475,19 @@ body
                 <a class="lightbox-close" href="#gallery2"></a>
             </div>
 
+            <a class="lightbox" href="#overworldPic">
+                <img alt="Overworld" src="images/thumbs/overworld.png" />
+            </a>
+            <div class="lightbox-target" id="overworldPic">
+                <img alt="Overworld" src="images/screenshots/overworld.png" />
+                <a class="lightbox-close" href="#gallery2"></a>
+            </div>
+
         </div>
-
-
-
-
-    <div class="middleStuff">
-        <div class="newsletterNotice">The game is currently under development, planned to be released Q3 2018</div>
-        <div class="steamButton">
-            <a class="gamelink" href="http://store.steampowered.com/app/791800/Mind_Over_Mushroom/">Add it to your Steam Wishlist</a>
-        </div>
-    </div>
 
 
 
         <div class="containingThing" id="gallery3">
-
-            <h2>Numerous distinct character types to unlock, each with their own unique abilities - from carnivorous plants and walking bombs, to necromancers and giant snails. Begin each battle by choosing your forces to best suit the tactical situation at hand and your own strategic approach.</h2>
 
             <a class="lightbox" href="#charactersPic">
                 <img alt="Some of the character types, including the mage, giant snail, traveler, and tar slime" src="images/thumbs/characters.png" />
@@ -523,101 +513,34 @@ body
                 <a class="lightbox-close" href="#gallery3"></a>
             </div>
 
-        </div>
-
-
-
-
-        <div class="containingThing" id="gallery4">
-
-            <h2>Fight your way though 25+ tactical battles set in a variety of diverse locations, from dark caves and expansive deserts to dense jungles and foreboding wastelands.</h2>
-
-            <a class="lightbox" href="#pumpkinPatchPic">
-                <img alt="Pumpkin Patch" src="images/thumbs/pumpkinPatch.png" />
-            </a>
-            <div class="lightbox-target" id="pumpkinPatchPic">
-                <img alt="Pumpkin Patch" src="images/screenshots/pumpkinPatch.png" />
-                <a class="lightbox-close" href="#gallery4"></a>
-            </div>
-
-            <a class="lightbox" href="#boneWastesPic">
-                <img alt="Bone Wastes" src="images/thumbs/boneWastes.png" />
-            </a>
-            <div class="lightbox-target" id="boneWastesPic">
-                <img alt="Bone Wastes" src="images/screenshots/boneWastes.png" />
-                <a class="lightbox-close" href="#gallery4"></a>
-            </div>
-
             <a class="lightbox" href="#wetlandsPic">
                 <img alt="Wetlands" src="images/thumbs/wetlands.png" />
             </a>
             <div class="lightbox-target" id="wetlandsPic">
                 <img alt="Wetlands" src="images/screenshots/wetlands.png" />
-                <a class="lightbox-close" href="#gallery4"></a>
-            </div>
-
-            <a class="lightbox" href="#overworldPic">
-                <img alt="Overworld" src="images/thumbs/overworld.png" />
-            </a>
-            <div class="lightbox-target" id="overworldPic">
-                <img alt="Overworld" src="images/screenshots/overworld.png" />
-                <a class="lightbox-close" href="#gallery4"></a>
+                <a class="lightbox-close" href="#gallery3"></a>
             </div>
 
         </div>
 
 
 
+        <div class="companyStuff">
+            <img src="images/BinaryJellyfishLogo_Full_192x64.png" class="companyLogo" alt="Logo of inde game studio Binary Jellyfish">
 
-
-    <div class="bottomStuff">
-
-        <div class="wantToBeNotified">Want to be notified when the game is released?</div>
-
-
-        <!-- Begin MailChimp Signup Form -->
-        <center>
-        <div id="mailchimp">
-            <form action="https://binaryjellyfish.us17.list-manage.com/subscribe/post?u=edf79bfad6a4902b53ad272bc&amp;id=731d4658b8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>            
-                   <div class="newsletterNotice">Subscribe to the Binary Jellyfish newsletter</div>
-                   <input type="email" value="Email address" name="EMAIL" class="required email" id="mce-EMAIL" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-
-                    <div style="display: inline-block;">
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display: none"></div>
-                            <div class="response" id="mce-success-response" style="display: none"></div>
-                        </div>
-
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                            <input type="text" name="b_edf79bfad6a4902b53ad272bc_731d4658b8" tabindex="-1" value="">
-                        </div>
-
-                        <div class="clear">
-                            <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button">
-                        </div>
-                    </div>
-            </form>
+            <div class="copyrightText">
+                &#169; 2018 Binary Jellyfish LLC         
+            </div>
         </div>
-        </center>
-        <!--End mc_embed_signup-->
+
 
 
     </div>
 
-
-
-
-    <div class="companyStuff">
-        <img src="images/BinaryJellyfishLogo_Full_192x64.png" class="companyLogo" alt="Logo of inde game studio Binary Jellyfish">
-
-        <div class="copyrightText">
-            &#169; 2018 Binary Jellyfish LLC         
-        </div>
-    </div>
 
 
     <div class="clearfix"></div>
+
 
 
 </body>
